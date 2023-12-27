@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient(aqua,aquamarine,cyan,rgb(82, 208, 250));
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: blueviolet;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 140, 217);
+    padding: 5px 40px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#left{
+    display: flex;
+    gap: 15px;
+}
+#cent{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#right{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+img{
+    height: 50px;
+    border-radius: 50%;
+}
+a:hover{
+    letter-spacing: 1px;
+    font-size: 23px;
+}
